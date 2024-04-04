@@ -22,7 +22,7 @@ export default async function Profile() {
                     }} className={styles.link}>Logout</Link>
                 </div>
             </nav>
-
+                    
             <div className={styles.profileContent}>
                 <p className={styles.profileInfo}><strong>Name:</strong> {info.user.name}</p>
                 <p className={styles.profileInfo}><strong>Email:</strong> {info.user.email}</p>
