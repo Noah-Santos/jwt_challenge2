@@ -29,14 +29,11 @@ body {
     )
     rgb(var(--background-start-rgb)); */
     background-color: black;
+    color: white;
 }
 
 @layer utilities {
   .text-balance {
     text-wrap: balance;
   }
-}
-
-input{
-  color: black;
 }

@@ -7,12 +7,7 @@ import Link from 'next/link';
 export default async function Profile() {
     const session = await getSession();
     let info = (session);
-    let date = new Date(Date.parse(info.expires))
-    console.log(info)
-    console.log(info.expires)
-    // console.log(info.user.name)
-    // console.log(info.user.password)
-    // console.log(Date.parse(info.expires))
+
     return (
         <section className={styles.cont}>
             <nav className={styles.navCont}>
